@@ -1,0 +1,121 @@
+.right-section{
+  color: white;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.palette-container{
+  background-color: rgb(70, 118, 134);
+  border: 2px dashed white;
+  border-radius: 25px;
+  height: 300px;
+  padding: 0px 30px;
+  width: 210px;
+  margin-top: 40px;
+}
+
+.color-palette{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.square{
+  border: 2px dotted white;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.selected-square{
+  border : 2px solid rgb(17, 17, 17);
+  box-shadow : inset 0px 0px 0px 3px rgb(17, 17, 17);
+  opacity: 0.9;
+}
+
+.square:hover{
+  opacity: 0.8;
+}
+
+.square:active{
+  opacity: 0.6;
+}
+
+#color1{
+  background-color: rgb(179, 0, 0);
+}
+
+#color2{
+  background-color: rgb(235, 129, 0);
+}
+
+#color3{
+  background-color: rgb(209, 209, 1);
+}
+
+#color4{
+  background-color: rgb(252, 107, 131);
+}
+
+#color5{
+  background-color: rgb(46, 46, 196);
+}
+
+#color6{
+  background-color: rgb(0, 153, 0);
+}
+
+#color7{
+  background-color: rgb(0, 163, 163);
+}
+
+#color8{
+  background-color: rgb(126, 33, 126);
+} 
+
+#color9{
+  background-color: rgb(0, 221, 0);
+}
+
+.note-container{
+  margin-top: 30px;
+  width: 380px;
+  border: 1px solid rgb(88, 88, 88);
+  display: grid;
+  border-radius: 4px;
+}
+
+#note-text{
+  padding: 10px;
+  border-bottom: 1px dashed white;
+  background-color: rgba(200, 200, 200, 0.4);
+  display: flex;
+}
+
+.circles{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 3px;
+  column-gap: 20px;
+}
+
+.circle{
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  box-shadow: inset 0px 0px 0px 5px rgb(226, 226, 226);
+}
+
+.note{
+  padding: 15px;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.note:focus{
+  outline: none;
+}

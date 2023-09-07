@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku online</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/main-section.css">
+  <link rel="stylesheet" href="styles/left-section.css">
+  <link rel="stylesheet" href="styles/right-section.css">
+
+</head>
+<body>
+  <div class="left-section">
+    <div id="timer">00:00</div>
+    <button class="check-button">Check error</button>
+    <button class="submit-button">Start game</button>
+    <button class="reset-button">Reset</button>
+    <button class="new-game-button">New game</button>
+    <button class="how-to-play-button">How to play</button>
+  </div>
+
+  <div class="main-section">
+    <div id="nothing"></div>
+    <div class="error-message"></div>
+    <div class="grid"></div>    
+  </div>
+
+  <div class="right-section">
+    <div class="palette-container">
+      <p>Color palette</p>
+      <div class="color-palette">
+        <div class="square" id="color1"></div>
+        <div class="square" id="color2"></div>
+        <div class="square" id="color3"></div>
+        <div class="square" id="color4"></div>
+        <div class="square" id="color5"></div>
+        <div class="square" id="color6"></div>
+        <div class="square" id="color7"></div>
+        <div class="square" id="color8"></div>
+        <div class="square" id="color9"></div>
+      </div>
+    </div>
+
+    <div class="note-container">
+      <div id="note-text">Note
+        <div class="circles">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>  
+        </div>
+      </div>
+      <textarea class="note" rows="8" spellcheck="false"> </textarea>
+    </div>
+  </div>
+
+  <script src="scripts/instruction.js"></script>
+
+  <script type="module" src="scripts/general.js"></script>
+  <script type="module" src="scripts/cell.js"></script>
+  <script type="module" src="scripts/timer.js"></script>
+
+  <script type="module" src="scripts/sudoku.js"></script>
+
+</body>
+</html>
