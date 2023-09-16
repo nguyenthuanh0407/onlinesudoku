@@ -10,8 +10,7 @@ const instructions = [
   "4. Hold 'Shift' to select multiple cells.",
   "5. Press 'C' to clear all numbers in the selected cells.",
   "6. Press 'F' to fill the selected cells with the selected color.",
-  "7. Press 'D' to delete color from the selected cells.",
-  "8. Press 'H' to show instructions."
+  "7. Press 'D' to delete color from the selected cells."
 ]
 
 function howToPlay(){
