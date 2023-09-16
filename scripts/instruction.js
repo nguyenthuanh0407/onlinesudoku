@@ -32,6 +32,3 @@ function howToPlay(){
 }
 
 instructionButton.addEventListener('click', () => howToPlay());
-document.addEventListener('keydown', (event) => {
-  if(event.key === 'h') howToPlay();
-})
