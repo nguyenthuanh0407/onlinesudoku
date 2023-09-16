@@ -230,8 +230,6 @@ document.addEventListener('keydown', (event) => {
         moveSelected('up', selectedCells, rows, columns); break;
       case 'ArrowDown':
         moveSelected('down', selectedCells, rows, columns); break;
-      case 'u':
-        cellArr.forEach(cell => cell.undo()); break;
     }
   });
 });
