@@ -139,7 +139,6 @@ document.querySelector('.submit-button').addEventListener('click', () => {
         clearInterval(timer);
         displayTime();
         gameState = 'finished';
-        errorMessage.innerHTML = 'Finished!';
         errorMessage.style.color = 'rgb(0, 160, 0)';
         changeButton();
       }
